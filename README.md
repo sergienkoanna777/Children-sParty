@@ -2,7 +2,7 @@
 
 Online account split calculator.
 
-<img src="./.jpg" alt="Image" width="auto">
+<img src="./Children'sParty.png" alt="Image" width="auto">
 
 
 ## About The Project
@@ -23,3 +23,4 @@ To do this, you need to enter the number of children, the number of hours and th
 
 [HTML5](https://www.w3schools.com/html/) / [CSS3](https://www.w3schools.com/css/)/ [JavaScript](https://www.w3schools.com/js/)
 
+Project Link: https://github.com/sergienkoanna777/Children-sParty
