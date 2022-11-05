@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading">
+        <div>
+            <h1>Organization of parties for children</h1>
+        </div>
+        <p class="words">We provide a space, equipment, animators, shows.</p>
+        <p class="words">With us, your party will be interesting and special.</p>
+    </div>
+    <div class="box">
+        <div id="container">
+            <h2>Let's split the bill for each child</h2>
+                <p>Number of children</p>
+            <span>😃
+                <input type="text" id="childrens" placeholder="How many children?">
+            </span>
+            <p>Number of hours</p>
+                <span>⏰
+                    <input type="text" id="time" placeholder="How many hours?">
+                </span>
+            <p>🥳What kind of party do you want?🎉</p>
+                <button id="addService">Service</button>
+            <form>
+                <select id="options">
+                    <option disabled>Select an option</option>
+                    <option selected value="10">№1: space and equipment - 10$/hr/per</option>
+                    <option value="25">№2:opt.1+ animator - 25$/hr/per</option>
+                    <option value="37">№3:opt.2 + trampoline - 37$/hr/per</option>
+                    <option value="50">№4:opt.3 + bubble show - 50$/hr/per</option>
+                </select>
+                <button id="btn">Calculate</button>
+            </form>
+            <div id="showTotalAmountToPay">
+                <div id="totalAmount">
+                    <p>Bill (total)</p>
+                    <span>$</span>
+                    <span id="totalBill"></span>
+                </div>
+                <div id="billSplit">
+                    <p>Per person</p>
+                    <span>$</span>
+                    <span id="dividedBill"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>

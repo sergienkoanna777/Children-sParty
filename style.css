@@ -1,0 +1,130 @@
+body{
+    background-image:url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: gold;
+}
+
+#heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(15, 192, 192);
+}
+
+.words{
+    font-size: 30px;
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-right: 150px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    text-align: center;
+    width: 500px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(15, 192, 192);
+    align-self: center;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+#addService{
+    background-color: rgb(15, 192, 192);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(3, 38, 102);
+    font-size: 15px;
+}
+
+#btn{
+    background-color: rgb(229, 255, 0);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(3, 38, 102);
+    font-size: 15px;
+}
+
+#options{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#showTotalAmountToPay{
+    display: flex;
+    justify-content: space-around;
+}
+
+#totalAmount, #billSplit{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(15, 192, 192);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid block;
+    color: rgb(3, 38, 102);
+}
+
+p{
+    color: rgb(3, 38, 102);
+    font-size: 20px;
+}
+
+@media all and (max-width: 800px){
+    h1, h2{
+        font-size: 20px;
+    }
+
+    .words{
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .box{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
